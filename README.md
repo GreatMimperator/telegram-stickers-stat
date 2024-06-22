@@ -1,4 +1,7 @@
 # Sticker statistics collector for the period in Telegram
+[![ru](https://img.shields.io/badge/lang-ru-FFFFFF.svg)](README-RU.md)  
+[![ru](https://img.shields.io/badge/lang-ru-1C3578.svg)](README-RU.md)  
+[![ru](https://img.shields.io/badge/lang-ru-E4181C.svg)](README-RU.md)  
 Almost all code got with AI!
 ## Prepare the environment for execution
 ```bash
