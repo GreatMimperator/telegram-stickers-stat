@@ -7,8 +7,8 @@ data = pd.read_csv('statistics.csv')
 # Преобразование столбца с датами в формат datetime
 data['date'] = pd.to_datetime(data['date'], format='%m/%d/%Y')
 
-# Определение выходных дней (пятница и суббота)
-weekends = data['date'].dt.weekday.isin([4, 5])
+# Определение выходных дней (суббота и воскресенье)
+weekends = data['date'].dt.weekday.isin([5, 6])
 
 # Построение графиков
 plt.figure(figsize=(14, 8))
